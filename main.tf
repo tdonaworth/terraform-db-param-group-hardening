@@ -5,7 +5,7 @@ resource "aws_db_parameter_group" "this" {
   tags        = var.tags
 
   dynamic "parameter" {
-    for_each = var.parameters
+    for_each = jsondecode(file("${path.module}/pg_hardening/${var.family}_hardening.json"))
     content {
       name         = parameter.value["name"]
       value        = parameter.value["value"]

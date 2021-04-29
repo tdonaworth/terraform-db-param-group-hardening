@@ -1,3 +1,9 @@
+variable "region" {
+  type        = string
+  default     = "us-east-1"
+  description = "AWS Region"
+}
+
 variable "name" {
   type        = string
   description = "The name of the DB parameter group. If omitted, Terraform will assign a random, unique name."

@@ -1,7 +1,10 @@
 name        = "hfc-db-pg-example"
 description = "Built by TF as an example"
 family      = "mysql8.0"
-tags        = {}
+tags = {
+    Name = "hfc-db-pg-example"
+    Owner_Email = "hcqisfc@flexion.us"
+  }
 parameters  = [
         {
             name  = "activate_all_roles_on_login"
