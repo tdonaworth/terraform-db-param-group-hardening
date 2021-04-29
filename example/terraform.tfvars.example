@@ -1,17 +1,7 @@
 name        = "hfc-db-pg-example"
 description = "Built by TF as an example"
-family      = "mysql8.0"
+family      = "postgres10"
 tags = {
     Name = "hfc-db-pg-example"
     Owner_Email = "hcqisfc@flexion.us"
   }
-parameters  = [
-        {
-            name  = "activate_all_roles_on_login"
-            value = "0"
-        },
-        {
-            name  = "validate_password_special_char_count"
-            value = "1"
-        },
-    ]

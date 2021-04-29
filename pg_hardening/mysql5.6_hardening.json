@@ -1,0 +1,67 @@
+[
+    {
+        "name" : "local_infile",
+        "value" : "0",
+        "apply_method" : "immediate"
+    },
+    {
+        "name" : "log_warnings",
+        "value" : "2",
+        "apply_method" : "immediate"
+    },
+    {
+        "name" : "master_verify_checksum",
+        "value" : "1",
+        "apply_method" : "immediate"
+    },
+    {
+        "name" : "old_passwords",
+        "value" : "0",
+        "apply_method" : "immediate"
+    },
+    {
+        "name" : "skip-character-set-client-handshake",
+        "value" : "0",
+        "apply_method" : "pending-reboot"
+    },
+    {
+        "name" : "skip_show_database",
+        "value" : "1",
+        "apply_method" : "pending-reboot"
+    },
+    {
+        "name"  :"sql_mode",
+        "value" : "STRICT_ALL_TABLES,NO_AUTO_CREATE_USER",
+        "apply_method" : "immediate"
+    },
+    {
+        "name" : "validate-password",
+        "value" : "FORCE_PLUS_PERMANENT",
+        "apply_method" : "pending-reboot"
+    },
+    {
+        "name"  :"validate_password_length",
+        "value" : "14",
+        "apply_method" : "immediate"
+    },
+    {
+        "name" : "validate_password_mixed_case_count",
+        "value" : "1",
+        "apply_method" : "immediate"
+    },
+    {
+        "name"  :"validate_password_number_count",
+        "value" : "1",
+        "apply_method" : "immediate"
+    },
+    {
+        "name"  :"validate_password_policy",
+        "value" : "MEDIUM",
+        "apply_method" : "immediate"
+    },
+    {
+        "name"  :"validate_password_special_char_count",
+        "value" : "1",
+        "apply_method" : "immediate"
+    }
+]

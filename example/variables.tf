@@ -25,7 +25,7 @@ variable "tags" {
   description = "A map of tags to assign to the resource."
 }
 
-variable "parameters" {
-  type        = list(map(string))
-  description = "A list of DB parameters to apply. Note that parameters may differ from a family to an other. Full list of all parameters can be discovered via aws rds describe-db-parameters after initial creation of the group."
-}
+# variable "parameters" {
+#   type        = list(map(string))
+#   description = "A list of DB parameters to apply. Note that parameters may differ from a family to an other. Full list of all parameters can be discovered via aws rds describe-db-parameters after initial creation of the group."
+# }
